@@ -1,0 +1,109 @@
+
+
+
+#hero-section {background-image: url('image/blackbackground.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    padding: 100px 20px;
+
+}
+
+#hero-section img{
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 1em;
+    z-index: 2;
+}
+
+
+#portfolio {
+    background-image: url('image/blackbackground.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Light font color */
+    padding: 100px 50px; 
+    
+}
+
+#portfolio h2 {
+    color: #ffffff; 
+    margin-bottom: 20px; 
+    padding: 10px 850px;
+}
+
+.portfolio-item {
+    margin-bottom: 20px;
+    padding: 0px 100px;
+    overflow: hidden;
+}
+#portfolio img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#portfolio a {
+    color: #ffffff; 
+}
+
+#welcome {
+    padding: 100px 50px;
+}
+
+
+#about {
+    padding: 100px 50px;  
+}
+
+
+#contact {
+    padding: 100px 50px; 
+}
+
+
+footer {
+    padding: 100px 50px; 
+    background-color: #f8f9fa; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+@keyframes fallingFlower {
+    0% {
+        transform: translateY(-100vh) rotate(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(120vh) rotate(360deg);
+        opacity: 1;
+    }
+}
+
+.flower {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffccff; /* color of the flower */
+    border-radius: 50%;
+    animation: fallingFlower linear infinite;
+    z-index: -1;
+}

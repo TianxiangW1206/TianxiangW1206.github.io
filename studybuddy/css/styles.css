@@ -1,0 +1,171 @@
+/* COGS3 studyBuddy specific styles go here. */
+
+#title{
+   background-color: #7be0ff; 
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #fff
+}
+
+h2{
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 1.5;
+    font-weight: bold;
+
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/*Navigation Bar*/
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+/*buttons */
+.download-button{
+    margin: 5% 3% 5% 0 ;
+}
+
+/*Title Image*/
+.title-image{
+    width: 60%;
+    transform: rotate(20deg);
+    z-index: 0;
+    position: absolute;
+}
+
+
+/*features*/
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8712;
+    margin: 1rem;
+}
+
+.icon:hover{
+    color:  #8fdbf2;
+}
+
+/*Testimonials*/
+#testimonials{
+    text-align: center;
+    background-color: #7be0ff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* press */
+#press{
+    background-color: #7be0ff;
+    text-align: center;
+}
+
+.press-logo{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-header{
+    color: #000;
+}
+
+.pricing-column{
+    pad: 3% 2%;
+}
+
+.price-item{
+    color: #8f8f8f;
+}
+
+/* call to action */
+#cta{
+    background-color: #7be0ff;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+/* Media */
+
+@media (max-width: 1070px){ /* this max width match better for my MAC screen */
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
